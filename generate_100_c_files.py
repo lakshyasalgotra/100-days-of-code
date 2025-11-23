@@ -34,7 +34,6 @@ QUESTIONS = [
     {"id": 18, "q": "Write a program that accepts a percentage (0-100) and assigns a grade based on the following criteria: 90-100: Grade A, 80-89: Grade B, 70-79: Grade C, 60-69: Grade D, <60: Grade F."},
     {"id": 19, "q": "Write a program to classify a triangle as Equilateral, Isosceles, or Scalene based on its side lengths."},
     {"id": 20, "q": "Write a program to display the day of the week based on a number (1-7) using switch-case."},
-]
     {"id": 21, "q": "Write a program to display the month name and number of days using switch-case for a given month number."},
     {"id": 22, "q": "Write a program to find profit or loss percentage given cost price and selling price."},
     {"id": 23, "q": "Write a program to calculate library fine based on late days."},
