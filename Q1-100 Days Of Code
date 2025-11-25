@@ -1,0 +1,40 @@
+//Q1 Write a program to input two numbers and display their sum.
+
+/*
+Sample Test Cases:
+Input 1:
+3 4
+Output 1:
+Sum = 7
+
+Input 2:
+-1 20
+Output 2:
+Sum = 19
+
+*/
+#include <stdio.h>// import standard library
+
+int main(){
+    //declare integer variables
+    int num1;
+    int num2;
+    int sum;
+
+    //ask for 2 integers
+    printf("Enter two numbers: ");
+
+    //take input and 
+    //store them in the respective variables
+
+    scanf("%d %d", &num1, &num2);
+
+    //compute total
+    sum = num1 + num2;
+
+    //print total
+    printf("Sum = %d\n", sum);
+
+    return 0;// to see if program ran as expected
+
+}

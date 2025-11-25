@@ -1,0 +1,38 @@
+//Q10: Write a program to input time in seconds and convert it to hours:minutes:seconds format.
+
+/*
+Sample Test Cases:
+Input 1:
+3661
+Output 1:
+1:1:1
+
+Input 2:
+7322
+Output 2:
+2:2:2
+
+*/
+
+#include <stdio.h> 
+#include <math.h>
+
+int main(){
+
+    int total_seconds, hours, minutes, seconds;
+
+    scanf("%d", &total_seconds);
+
+    hours = total_seconds / 3600;
+
+    // First, find the remaining seconds after calculating hours.
+    // Then, divide the remainder by 60 to get the minutes.
+    minutes = (total_seconds % 3600) / 60;
+
+    // The final remainder after dividing by 60 gives the seconds.
+    seconds = total_seconds % 60;
+
+    printf("%d:%d:%d\n", hours, minutes, seconds);
+
+    return 0;
+}
